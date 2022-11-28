@@ -15,7 +15,7 @@ const TypesOfFruit = () => {
 const Fruits = () => {
   return (
     <div>
-        <TypesOfFruit />
+        <TypesOfFruit/>
     </div>
   );
 };
@@ -29,7 +29,7 @@ class TypesOfFood extends React.Component {
     return (
       <div>
         <h1>Types of Food:</h1>
-          <Food />
+        <Fruits/>
       </div>
     );
   }
