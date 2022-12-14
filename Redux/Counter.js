@@ -1,7 +1,7 @@
 const INCREMENT = "INCREMENT";
 const DECREMENT = "DECREMENT"; 
 
-const counterReducer = (state, action) => {
+const counterReducer = (state=0, action) => {
     switch(action.type) {
       case INCREMENT:
         return state + 1;
